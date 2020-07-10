@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home" />
+
+        <item
+            android:id="@+id/nav_emer"
+            android:title="Emergency Contact"
+            android:icon="@drawable/alert" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/help" />
+
+        <item
+            android:id="@+id/nav_doctors"
+            android:title="Doctors"
+            android:icon="@drawable/doctor" />
+
+    </group>
+
+
+        <item
+
+            android:title="Profile" >
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"
+                android:icon="@drawable/menu" />
+
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Profile"
+                android:icon="@drawable/menu" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:icon="@drawable/menu" />
+            </group>
+
+        </menu>
+        </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_menu_share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate US"
+                android:icon="@drawable/menu" />
+
+        </menu>
+    </item>
+
+</menu>
